@@ -55,6 +55,8 @@ in the `features` directory in `.feature` files. You'll also see a
 containing the code used when each "step" in a scenario is executed as
 part of the test.
 
+[This Low-Fi user interface sketch](https://github.com/sbunivedu/saas-hangperson/blob/master/low_fi_sketch.jpg) 
+could have been used to drive out the cucumber tests.
 
 As an integration testing tool,
 Cucumber can be used to test almost any kind of software system as long
