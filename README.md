@@ -147,8 +147,8 @@ recognize this route.
 post '/create', to: 'games#create'
 ```
 
-Now the test should complain "The action 'create' could not be found 
-for GamesController (AbstractController::ActionNotFound)".
+Now the test should complain `The action 'create' could not be found 
+for GamesController (AbstractController::ActionNotFound)`.
 
 This "create" method in the app should do the following:
 
