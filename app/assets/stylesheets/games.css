@@ -2,6 +2,9 @@ body {
 	font-family: Helvetica, Arial, Geneva, sans-serif;
 	padding: 2em;
 	border: 8px solid teal;
+	width: 500px;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 span.word {
@@ -36,6 +39,10 @@ span.win {
 }
 
 form {
-	border: 1px solid grey;
+	/*border: 1px solid grey;*/
 	margin: 4px;
+}
+
+input{
+	font-size: larger;
 }

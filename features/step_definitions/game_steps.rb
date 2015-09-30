@@ -31,14 +31,14 @@ When /^I make the following guesses:(.*)$/ do |guesses|
 end
 
 Then /^the word should read "(.*)"$/ do |word|
-  expec(page).to have_content(word)
+  expect(page).to have_content(word)
 end
 
 Then /^the wrong guesses should include:(.*)$/ do |guesses|
   guesses = guesses.gsub(' ', '').split(',')
   guesses.each do |guess|
     with_scope("span.guesses") do
-      expec(page).to have_content(guess)
+      expect(page).to have_content(guess)
     end
   end
 end
