@@ -1,5 +1,5 @@
 Creating and versioning a simple SaaS app
-==============================
+=====================================
 (this implementation guide follows the design of the [hangperson game app](https://github.com/sbunivedu/hangperson))
 
 **Goal:** Understand the steps needed to create, version, and deploy a
